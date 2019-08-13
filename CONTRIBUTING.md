@@ -2,8 +2,34 @@
 ## 1. Descarga el repositorio
 - Instala Git para cualquier SO: [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - Descarga o clona en tu directorio de trabajo el repositorio; puedes consultar esta [guía rápida y fácil](https://rogerdudler.github.io/git-guide/). 
-Esto crea en tu directorio de trabajo una copia de todos los archivos del repositorio. La idea es que ahora cada colaborador debe 
-crear una rama de trabajo con su propio Módulo del diplomado. 
+Esto crea en tu directorio de trabajo local una copia del repositorio. La idea es que ahora cada colaborador debe 
+crear una rama de trabajo con su propio Módulo del diplomado. Como ejemplo, el repositorio podría verse de la siguiente forma:
+```bash
+origin
+├── Modulo1 ->NewBranch de Javier
+│   ├── M1_Python
+│   │   ├── MiCodigo.ipynb
+│   │   ├── MisDocs
+│   ├── M1_Evaluacion
+│   │   ├── MiCodigo.ipynb
+│   │   └── MisInstrucciones.pdf
+├── Modulo2 ->NewBranch de Dan
+│   ├── M2_Introduccion
+│   │   ├── MiCodigo.ipynb
+│   │   └── MisFiguras
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![equation](https://latex.codecogs.com/gif.latex?%5Cvdots)
+```bash
+│   │   
+├── Modulo5 ->NewBranch de Jorge
+│   ├── M5_Evaluacion
+│   │   ├── MiCodigo.ipynb
+│   │   └── MisInstrucciones.pdf
+│   └── 
+├── otros_archivos
+└── CONTRIBUTING.md
+```
+
 
 ## 2. Conocer el proceso de trabajo (Work Flow) de Git (ver por ejemplo esta [guía](https://rogerdudler.github.io/git-guide/)):
 - actualizar su repositorio local con [`git pull origin master`](https://uoftcoders.github.io/studyGroup/lessons/git/collaboration/lesson/),
@@ -16,7 +42,7 @@ crear una rama de trabajo con su propio Módulo del diplomado.
 - haga clic en el botón "Pull Request"
 - haga clic en "Send Pull Request"
 
-## 1. Conocer la [terminología de Git](https://rogerdudler.github.io/git-guide/):
+## 3. Conocer la [terminología de Git](https://rogerdudler.github.io/git-guide/):
 ### REPOS AND BRANCHES
 | Term            | Description                                                                                                                                                    |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
