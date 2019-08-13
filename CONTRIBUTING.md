@@ -1,4 +1,4 @@
-# Como contribuir al Dipomado en Ciencia de Datos 2019
+# Como contribuir al Diplomado en Ciencia de Datos 2019
 ## 1. Descarga el repositorio
 - Instala Git para cualquier SO: [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - Descarga o clona en tu directorio de trabajo el repositorio; puedes consultar esta [guía rápida y fácil](https://rogerdudler.github.io/git-guide/). 
