@@ -5,13 +5,13 @@ Material del diplomado en Ciencia de Datos con Python 2019 del Centro de   Inves
 
 El Diplomado en Ciencia  de  Datos  con  Python tiene como objetivo presentar  los fundamentos, herramientas y métodos para realizar procesos de análisis de datos y así extraer información práctica. El desarrollo de esta tarea  tiene aplicaciones en tanto en los sectores académicos como en los empresariales e industriales. Este diplomado se divide en 6 módulos:
 
-* Introducción a Python.
+* Introducción a Python para ciencia de datos.
 * Análisis estadístico de datos.
 * Pre-procesamiento y  Normalización.
 * Clasificación y  Agrupamiento.
 * Aprendizaje  profundo.
 * Taller experimental.
   
-Los 6 módulos introducen las librerías comunmente utilizadas en Python para el manipulación de datos, análisis estadísico y el aprendizaje de máquina.
+Los módulos introducen técnicas y conceptos sobre la manipulación de datos, análisis estadístico y el aprendizaje de máquina.
 
 El diplomado utiliza el formato de notebooks para presentar e interactuar con el material, estas notebooks incluyen enlace directo para abrirlas en Google Colaboratory.
