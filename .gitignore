@@ -1,3 +1,5 @@
+.gitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -103,6 +105,19 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# temporales
+*.tmp
+
+# Microsoft
+~$*.doc*
+Backup of *.doc*
+~$*.xls*
+*.xlk
+~$*.ppt*
+*.~vsd*
+*.pot*
+
 # archivos de trabajo
 material_extra/
 img/
+Presentaciones/
