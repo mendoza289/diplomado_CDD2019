@@ -121,4 +121,4 @@ Backup of *.doc*
 SOL_*
 Untitled*
 material_extra/
-Presentaciones/
+Presentaciones/*.pptx
