@@ -332,7 +332,7 @@ def grafica(x_train,y_train,x_test,y_test):
 
     return fig,ax
 
-def plot_FD(clf,fig,ax,show_SV=False):
+def plot_FD(fig,ax,clf,show_SV=False):
     """
     Calcula el contorno de una curva 
     que representa la frontera de decision de un perceptron con kernel no-lineal
@@ -384,7 +384,7 @@ def plot_FD(clf,fig,ax,show_SV=False):
 
     return
 
-def plot_FD_SVM(clf,fig,ax,SVP=False):
+def plot_FD_SVM(fig,ax,clf,SVP=False):
     """
     Calcula el contorno de una curva 
     que representa la frontera de decision de SVM
